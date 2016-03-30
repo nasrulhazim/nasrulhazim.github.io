@@ -1,0 +1,35 @@
+body{
+  background-image:url(../../assets/img/type-writer.jpg);
+  background-size:cover;
+  background-position:center center;
+}
+
+div.wrapper{
+  position:relative;
+  height:100%;
+}
+
+blockquote{
+  background-color:#303437;
+  color:white;
+}
+
+footer{
+  color:white;
+}
+
+blockquote > footer{
+  color:white;
+}
+
+.container-fluid{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+}
+
+html, body, wrapper{
+  height:100%;
+}
+
